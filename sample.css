@@ -1,5 +1,57 @@
+.card1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 150px;
+    max-height: 320px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 30px 20px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-family: raleway;
+     margin-left:40%;
+    margin-top:5%;
 
+
+}
+
+
+.title {
+    color: black;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+body{
+      background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 	.footer {
+  margin-top: 100%;
   bottom: 0;
   position:absolute;
   opacity: 0.99;
